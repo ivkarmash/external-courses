@@ -1,8 +1,8 @@
 function varType (a) {
     typeof a;
-    if (typeof a == "number") {
+    if (typeof a === "number") {
         console.log('число');
-    } else if (typeof a == "string") {
+    } else if (typeof a === "string") {
         console.log('строка');
     } else {
         console.log('undefined');

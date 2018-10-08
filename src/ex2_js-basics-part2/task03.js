@@ -1,7 +1,7 @@
+var evenCount = 0;
+var oddCount = 0;
+var zeroCount = 0;
 function countNumbers (array) {
-    var evenCount = 0;
-    var oddCount = 0;
-    var zeroCount = 0;
     for (var i = 0; i <= array.length; i++) {
         if (array[i] === 0) {
             zeroCount++;
